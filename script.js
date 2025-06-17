@@ -41,7 +41,7 @@ let introduceNombre = prompt('Introduce un nombre')
 if (alumnos.includes(introduceNombre)) {
     console.log('Se ha encontrado el nombre correctamente')
 } else {
-    console.log('No se ha encontrado el')
+    console.log('No se ha encontrado el nombre')
 }
 
 //6
