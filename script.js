@@ -58,8 +58,11 @@ console.log(valores);
 
 let notas = [8, 7, 9, 10, 6];
 let division= 1
+let suma2= 0
 for (let i = 0; i < notas.length; i++) {
-    
+   suma2 += notas[i]
+   console.log(suma2/5)
+
     
 }
 
